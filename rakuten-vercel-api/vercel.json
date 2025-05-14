@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/get_hotel_details.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/api/get_hotel_details", "dest": "/api/get_hotel_details.py" }
+  ]
+}
